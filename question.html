@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Be My Valentine? 💝</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <main class="wrap">
+    <section class="card ask">
+      <h1 class="title big">Would you be my Valentine? 💖</h1>
+
+      <div class="btn-row" aria-label="Valentine choices">
+        <button id="yesBtn" class="btn primary" type="button">Yes 💗</button>
+        <button id="noBtn" class="btn ghost" type="button">No 🙈</button>
+      </div>
+
+      <div id="success" class="success" hidden>
+        <p class="success-text">Yayyyyy!! 💞💞💞</p>
+        <img class="gif" src="./source.gif" alt="Cute celebration gif" />
+      </div>
+
+      <canvas id="confetti" class="confetti" aria-hidden="true"></canvas>
+    </section>
+  </main>
+
+  <script src="./app.js"></script>
+</body>
+</html>
